@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="apple-touch-icon" href="/logo192.png"><script src="https://kit.fontawesome.com/4a4901689d.js" crossorigin="anonymous"></script><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all"><link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/icone.png">
+    <title>TudocomAmorCakes - Inicial</title>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="header mb-1">
+        <div class="container p-2">
+            <div class="row align-items-center">
+                <div class="col-sm">
+                    <a href="index.html"><img src="./img/logo1.png" alt="TudocomAmorCakes" class="header_logotipo img-fluid"></a>
+                </div>
+                <div class="col-sm d-none d-lg-block">
+                    <h4 class="header_titulos">Contatos</h4>
+                    <p class="header_infos">(42) 99991-8888</p>
+                </div>
+                <div class="col-sm d-none d-lg-block">
+                    <h4 class="header_titulos">E-mail</h4>
+                    <p class="header_infos">tudocomamorcakes@gmail.com</p>
+                </div>
+                <div class="col-sm d-none d-lg-block">
+                    <h4 class="header_titulos">Endereço</h4>
+                    <p class="header_infos">Rua jose maria, Morro Alto, GorpaCity - PR</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Menu -->
+    <nav class="nav p-2 navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto justify-content-center">
+                <li class="nav-item mr-3"><a href="index.html" class="nav-link">Inicial</a></li>
+                <li class="nav-item mr-3"><a href="sobre.html" class="nav-link">Sobre</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Produtos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="bologourmet.html">Bolos Gourmet</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="bolotradicional.html">Bolos tradicionais</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="doces.html">Doces de Festas</a>
+                    </div>
+                </li>
+                <li class="nav-item mr-3"><a href="contato.html" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Carrossel -->
+    <div class="pb-5">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class=""></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1" class=""></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="./img/banner1.2.png" class="d-block w-100" alt="Banner bolo">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="carrossel_titulo">Bolos Gourmet</h5>
+                        <p class="carrossel_descricao">Uma das nossas especialidades é os Bolos Gourmet. A TudocomAmorCakes marca os
+                            seus momentos com o sabor de seus Bolos Maravilhosos!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/banner2.1.png" data-holder-rendered="true">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="carrossel_titulo">Bolos Tradicionais</h5 class="carrosel_titulo">
+                        <p class="carrossel_descricao">Além dos bolos Gourmet, nós oferecemos os nossos bolos tradicionais com a mesma qualidade e sabor indiscutiveis!</p>
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <img src="./img/banner3.1.png" class="d-block w-100" alt="Banner bolo">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="carrossel_titulo">Doces de Festas</h5>
+                        <p class="carrossel_descricao">A TudocomAmorCakes divide o seu amor em vários tipos de doces. Entre em
+                            contato, faça seu pedido e aproveite!</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
+    <!-- Produtos principais -->
+    <section class="container mt-5">
+        <h2>Nossos produtos</h2>
+        <div class="row p-4 m-auto">
+        <div class="row p-4 m-auto">
+            <div class="col-sm mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top h-25" src="./img/gourmet.png" alt="Bolo Gourmet">
+                    <div class="card-body">
+                        <h5 class="card-title">Bolos Gourmet</h5>
+                        <p class="card-text">O famoso bolo Gourmet faz sucesso entre nossos clientes!</p>
+                        <a href="bologourmet.html" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top h-25" src="./img/card2.png" alt="Bolo especial">
+                    <div class="card-body">
+                        <h5 class="card-title">Bolos Tradicionais</h5>
+                        <p class="card-text">É sempre bom lembrar do bolo da vó...</p>
+                        <a href="bolotradicional.html" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top h-25" src="./img/docevar.png" alt="Bolo especial">
+                    <div class="card-body">
+                        <h5 class="card-title">Doces de Festas</h5>
+                        <p class="card-text">Não deixamos de fora os gostosos e adoráveis docinhos.</p>
+                        <a href="doces.html" class="btn btn-primary">Ver mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contato -->
+    <section class="container-fluid p-4" style="background-color: #ffb380;">
+        <section class="container text-center contato_pedido">
+            <h5>Entre em contato e faça sua encomenda agora através do email ou manda um whats para (42)99996-8888</h5>
+        </section>
+    </section>
+    <!-- Rodapé -->
+    <footer class="page-footer font-small indigo" id="rodape">
+        <div class="container">
+            <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+                <div class="col-md-2 col-3 mt-2"><img class="img-fluid footer_logotipo pb-4"
+                        src="./img/logo-white.png"
+                        alt="logo da e-leve">
+                </div>
+            </div>
+        </div>
+        <footer class="footer-copyright text-center py-1">
+            <div>TudocomAmorCakes © 2022 Copyright - Todos os direitos reservados | Desenvolvido por Davi</a></div>
+        </footer>
+    </footer>
+</body>
+
+</html>
